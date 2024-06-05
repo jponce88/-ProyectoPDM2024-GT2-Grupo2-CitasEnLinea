@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/descripcionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripción"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/diagnosticoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diagnóstico" />
+
+    <TextView
+        android:id="@+id/fecha_registroTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha de Registro" />
+
+    <TextView
+        android:id="@+id/id_historialTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID de Historial" />
+
+    <TextView
+        android:id="@+id/id_medicoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID de Médico" />
+
+    <TextView
+        android:id="@+id/id_pacienteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID de Paciente" />
+
+    <TextView
+        android:id="@+id/medicamentosTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medicamentos" />
+
+    <TextView
+        android:id="@+id/observacionesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Observaciones" />
+
+    <TextView
+        android:id="@+id/procedimientos_realizadosTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Procedimientos Realizados" />
+
+    <TextView
+        android:id="@+id/resultados_pruebasTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultados de Pruebas" />
+
+    <TextView
+        android:id="@+id/tratamientoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tratamiento" />
+
+</LinearLayout>

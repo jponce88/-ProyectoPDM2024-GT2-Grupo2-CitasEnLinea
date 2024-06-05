@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Definir un nuevo tema sin barra de acción -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Cambia el color de la barra de la aplicación -->
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <!-- Cambia el color del texto de la barra de la aplicación (iconos, título, etc.) -->
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <!-- Cambia el color de la barra de estado (la barra en la parte superior de la pantalla) -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+</resources>

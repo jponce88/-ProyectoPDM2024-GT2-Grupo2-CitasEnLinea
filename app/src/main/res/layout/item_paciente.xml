@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/nombreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre: " />
+
+    <TextView
+        android:id="@+id/apellidoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido: " />
+
+    <TextView
+        android:id="@+id/idAfpTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID AFP: " />
+
+    <TextView
+        android:id="@+id/idAseguradoraTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID Aseguradora: " />
+
+    <TextView
+        android:id="@+id/idEmpresaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID Empresa: " />
+
+    <TextView
+        android:id="@+id/idPacienteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID Paciente: " />
+
+    <TextView
+        android:id="@+id/idSeguroSocialTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID Seguro Social: " />
+
+    <TextView
+        android:id="@+id/idTipoDocIdentidadTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID Tipo Doc Identidad: " />
+
+    <TextView
+        android:id="@+id/idUsuarioTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID Usuario: " />
+
+    <TextView
+        android:id="@+id/ingresoMensualTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingreso Mensual: " />
+
+    <TextView
+        android:id="@+id/lugarTrabajoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lugar de Trabajo: " />
+
+    <TextView
+        android:id="@+id/numeroAfpTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número AFP: " />
+
+    <TextView
+        android:id="@+id/numeroAseguradoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número Asegurado: " />
+
+    <TextView
+        android:id="@+id/numeroDocIdentidadTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número Doc Identidad: " />
+
+    <TextView
+        android:id="@+id/numeroSeguroSocialTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número Seguro Social: " />
+
+    <TextView
+        android:id="@+id/primerApellidoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Primer Apellido: " />
+
+    <TextView
+        android:id="@+id/primerNombreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Primer Nombre: " />
+
+    <TextView
+        android:id="@+id/segundoApellidoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Segundo Apellido: " />
+
+    <TextView
+        android:id="@+id/segundoNombreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Segundo Nombre: " />
+
+</LinearLayout>

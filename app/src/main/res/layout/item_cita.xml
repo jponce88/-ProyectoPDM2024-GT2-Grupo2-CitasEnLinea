@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/fecha_hora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha y Hora" />
+
+    <TextView
+        android:id="@+id/id_cita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID Cita" />
+
+    <TextView
+        android:id="@+id/id_estado_cita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID Estado Cita" />
+
+    <TextView
+        android:id="@+id/id_medico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID Médico" />
+
+    <TextView
+        android:id="@+id/id_modalidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID Modalidad" />
+
+    <TextView
+        android:id="@+id/id_paciente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID Paciente" />
+
+</LinearLayout>
