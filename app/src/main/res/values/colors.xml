@@ -3,4 +3,12 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="colorPrimary">#3C4592</color>
+
+    <color name="Bitcoin">#EF8E19</color>
+    <color name="Ethereum">#7d7798</color>
+    <color name="Tether">#58b197</color>
+    <color name="BNB">#f0bb13</color>
+    <color name="Dogecoin">#c5a93a</color>
+    <color name="Polygon">#874be7</color>
+
 </resources>
