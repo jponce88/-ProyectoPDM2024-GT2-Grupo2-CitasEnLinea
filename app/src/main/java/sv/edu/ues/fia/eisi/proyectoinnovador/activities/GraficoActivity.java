@@ -48,9 +48,10 @@ public class GraficoActivity extends AppCompatActivity {
     private TextView nombre, precio;
     private Button button;
     private List<Entry> entries;
-
+    private TextView tiempo;
     private List<Integer> segundos;
     private Handler handler = new Handler();
+    private Handler handlerTime = new Handler();
     private Random random = new Random();
 
     @Override
@@ -65,6 +66,7 @@ public class GraficoActivity extends AppCompatActivity {
         nombre = findViewById(R.id.textGraphTitle);
         chart = findViewById(R.id.chartCrypto);
         precio = findViewById(R.id.textViewPrice);
+        tiempo = findViewById(R.id.textViewAnuncio);
 
         LottieAnimationView animationView = findViewById(R.id.animationView);
         animationView.setVisibility(View.VISIBLE); // Mostrar la animación
@@ -101,6 +103,7 @@ public class GraficoActivity extends AppCompatActivity {
                 //entries.add(new Entry(segundos.size(), randomValue));
                 try {
                     fetchCryptoData(cryptoName);
+                    temporizador();
                     Toasty.info(GraficoActivity.this, "Precio actualizado", Toast.LENGTH_SHORT, true).show();
                 }catch (Exception e){
                     e.printStackTrace();
@@ -173,5 +176,22 @@ public class GraficoActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         handler.removeCallbacksAndMessages(null);
+    }
+
+    private void temporizador(){
+        handlerTime.removeCallbacksAndMessages(null);
+        handlerTime.postDelayed(new Runnable() {
+            int segundos = 60;
+            @Override
+            public void run() {
+                segundos--;
+                tiempo.setText("Precio actualizado dentro de: \n" + segundos + " segundos");
+                if (segundos > 0){
+                handler.postDelayed(this, 1000);
+                }else{
+                    handlerTime.removeCallbacksAndMessages(null);
+                }
+            }
+        },0);
     }
 }
